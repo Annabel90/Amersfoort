@@ -3,10 +3,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-[class*="col-"] {
-float: left;
-padding: 15px;
-}
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -27,7 +27,7 @@ body {
   background-color: #900000;
 }
 
-
+@media only screen and (min-width: 768px){
 .header {
   font-family: 'Cinzel', serif;
   color: #B9B9B9;
@@ -39,7 +39,20 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+}
 
+.header {
+  font-family: 'Cinzel', serif;
+  color: #B9B9B9;
+  padding: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: url('koppelpoort2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
 .header h1 {
   text-align: center;
 }
