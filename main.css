@@ -100,11 +100,10 @@ list-style-type: square;
 }
 
 #dierenpark {
-  width: 300px;
-  height: 180px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 180px;
+  height: 108px;
+  float: right;
+  padding-left: 20px;
   padding-bottom: 5px;
 }
 
@@ -112,9 +111,7 @@ list-style-type: square;
 #dierenpark {
   width: 300px;
   height: 180px;
-  float: right;
-  padding-left: 20px;
-  padding-bottom: 5px;
+
 }
 }
 
